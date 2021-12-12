@@ -2,7 +2,7 @@ import re
 
 class EcsStemmer:
     def __init__(self):
-        self.rootWords = open("rootwords.txt").read()
+        self.rootWords = open("data/rootwords.txt").read()
 
     def stemm(self, words):
         result = []
